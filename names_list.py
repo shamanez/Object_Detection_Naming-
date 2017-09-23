@@ -3,8 +3,10 @@ import tensorflow as tf
 import random 
 import numpy as np
 
+#Change the Data Directory . This is to use in the conversion part easy . 
+
 flags = tf.app.flags
-flags.DEFINE_string('data_dir', '/home/dl/Documents/Currency Detection /SUTD_Object_Detection/Currency-Get the name list to use in coversion/images', 'Root directory to raw pet dataset.')
+flags.DEFINE_string('data_dir', 'pwd/images', 'Root directory to raw pet dataset.')
 FLAGS = flags.FLAGS
 
 
